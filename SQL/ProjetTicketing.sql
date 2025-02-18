@@ -1,3 +1,9 @@
+-- Création de la base de données
+CREATE DATABASE ticketing;
+
+-- Se connecter à la base de données
+\c ticketing
+
 CREATE TABLE Role(
    id_role INTEGER,
    nom VARCHAR(150)  NOT NULL,
